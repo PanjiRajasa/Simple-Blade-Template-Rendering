@@ -10,6 +10,9 @@
     <link rel="stylesheet" href="css/kim.css">
 @endsection
 
+{{-- status aktif tidaknya navbar --}}
+@section("active_lembaga", "active")
+
 @section('content')
     <!-- Hero Section -->
     <section class="hero">

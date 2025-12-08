@@ -9,6 +9,9 @@
     <link href="css/visi-misi2.css" rel="stylesheet">
 @endsection
 
+{{-- status aktif tidaknya navbar --}}
+@section("active_profile", "active")
+
 @section('content')
     <section class="hero">
         <div class="hero-inner">

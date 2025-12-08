@@ -34,7 +34,7 @@
 
       <ul class="nav-menu" id="navMenu">
         {{-- route root --}}
-        <li><a href="/">Home</a></li>
+        <li><a href="/" class="@yield('active_home')">Home</a></li>
 
         {{-- loncat ke section kabar --}}
         <li><a href="/#kabar">Kabar Desa</a></li>
@@ -43,27 +43,27 @@
         <li>
           
           {{-- route profile --}}
-          <a href="/profile">Profil Desa <i class="fa-solid fa-caret-down"></i></a>
+          <a href="/profile" class="@yield('active_profile')">Profil Desa <i class="fa-solid fa-caret-down"></i></a>
 
           <ul class="dropdown-menu">
 
             {{-- route visi-misi --}}
-            <li><a href="/visi-misi"><i class="fa-solid fa-bullseye"></i> Visi & Misi</a></li>
+            <li><a href="/visi-misi" class="@yield('active_visi_misi')"><i class="fa-solid fa-bullseye"></i> Visi & Misi</a></li>
 
             {{-- route cctv --}}
-            <li><a href="/cctv"><i class="fa-solid fa-video"></i> CCTV</a></li>
+            <li><a href="/cctv" class="@yield('active_cctv')"><i class="fa-solid fa-video"></i> CCTV</a></li>
 
           </ul>
         </li>
 
         {{-- route pemerintahan --}}
-        <li><a href="/pemerintahan">Pemerintahan Desa</a></li>
+        <li><a href="/pemerintahan" class="@yield('active_pemerintahan')">Pemerintahan Desa</a></li>
 
         <!-- Dropdown Lembaga Desa (DIPERBARUI: LPM & KIM) -->
         <li>
         
-          {{-- route lpm --}}
-          <a href="#">Lembaga Masyarakat <i class="fa-solid fa-caret-down"></i></a>
+          {{-- route kosong, karena isi dropdownnya yang punya routes --}}
+          <a href="#" class="@yield('active_lembaga')">Lembaga Masyarakat <i class="fa-solid fa-caret-down"></i></a>
           <ul class="dropdown-menu">
 
             {{-- route lpm --}}

@@ -11,6 +11,9 @@
     <link href="{{ asset('css/dashboard.css') }}" rel="stylesheet">
 @endsection
 
+{{-- status aktif tidaknya navbar --}}
+@section("active_home", "active")
+
 @section('content')
     {{-- article category & body --}}
     <section class="hero-isi">

@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="css/pemerintahan.css">
 @endsection
 
+{{-- status aktif tidaknya navbar --}}
+@section("active_pemerintahan", "active")
+
 {{-- contents --}}
 @section('content')
     <!-- Hero section -->

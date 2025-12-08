@@ -10,6 +10,9 @@
     <link href="css/cctv.css" rel="stylesheet">
 @endsection
 
+{{-- status aktif tidaknya navbar --}}
+@section("active_profile", "active")
+
 @section('content')
     <section class="hero">
         <div class="hero-inner">

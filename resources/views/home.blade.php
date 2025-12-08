@@ -10,6 +10,9 @@
     <link rel="stylesheet" href="css/dashboard.css">
 @endsection
 
+{{-- status aktif tidaknya navbar --}}
+@section("active_home", "active")
+
 @section('content')
     <!-- Hero Section -->
     <section class="hero">

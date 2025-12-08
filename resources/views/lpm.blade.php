@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="css/lpm.css">
 @endsection
 
+{{-- status aktif tidaknya navbar --}}
+@section("active_lembaga", "active")
+
 {{-- contents --}}
 @section('content')
     <!-- Hero Section -->

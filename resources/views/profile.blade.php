@@ -8,6 +8,9 @@
   <link rel="stylesheet" href="css/profile.css">
 @endsection
 
+{{-- status aktif tidaknya navbar --}}
+@section("active_profile", "active")
+
 {{-- contents --}}
 @section('content')
   <!-- ======== HERO SECTION ======== -->
